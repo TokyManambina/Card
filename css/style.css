@@ -1,0 +1,105 @@
+body{
+    max-width : 100vw;
+    height : 100vh;
+    display : flex;
+    justify-content : center;
+    align-items: center;
+    background-color: #f1f1f1;
+    background-image: url("../img/bg/bg.jpg");
+    background-size: cover;
+}
+.container{
+    position : relative;
+    width : 400px;
+    height: 600px;
+    margin: 30px;
+    background-color:  rgb(15,15,15);
+    box-shadow: 0 0 100px rgb(0, 49, 65);
+    border-radius: 15px;
+    overflow: hidden;
+    text-align: center;
+    color: #dedede;
+    cursor: pointer;
+}
+
+
+a:any-link{
+    color: #dedede;
+}
+
+hr{
+    border-color: #10c028;
+}
+
+.logo{
+    width: 100%;
+    height: 35%;
+    background-image: url("../img/logo/logo.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+
+img{
+    position: absolute;
+    margin-top: 5%;
+    margin-left: -45%;
+}
+
+span{
+    position: absolute;
+    
+    margin-top: 5%;
+    margin-left: -20%;
+}
+/*************************************/
+.l1{
+    height: 16%;
+    background-color: #151515;
+}
+
+.l2{
+    height: 16%;
+    background-color: #1a1a1a;
+}
+
+.l3{
+    height: 16%;
+    background-color: #272727;
+}
+
+.l4{
+    height: 50%;
+    background-color: #303030;
+}
+/*************************************/
+.l1:hover{
+    background-color: #252525;
+}
+
+.l2:hover{
+    background-color: #2a2a2a;
+}
+.l3:hover{
+    background-color: #373737;
+}
+.l4:hover{
+    background-color: #404040;
+}
+/*************************************/
+.l1 span{
+    margin-top: 3%;
+    margin-left: -15%;
+}
+.l2 span{
+    margin-top: 3%;
+    margin-left: -30%;
+}
+.l3 span{
+    margin-top: 8%;
+    margin-left: -20%;
+}
+.l4 span{
+    margin-top: 5%;
+    margin-left: -18%;
+}
